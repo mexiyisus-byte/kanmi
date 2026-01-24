@@ -43,9 +43,9 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-6xl md:text-8xl font-semibold tracking-tighter leading-[0.95] mb-8 text-neutral-900"
           >
-            Sip the <br />
+            Pop your <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-500">
-              Visual.
+              Party.
             </span>
           </motion.h1>
 
