@@ -69,7 +69,7 @@ export const Hero: React.FC = () => {
                 Book Your Date
                 </Button>
             </a>
-            <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/5635801913" target="_blank" rel="noreferrer">
                 <Button variant="secondary" className="flex items-center gap-2">
                 <MessageCircle size={18} />
                 WhatsApp Us

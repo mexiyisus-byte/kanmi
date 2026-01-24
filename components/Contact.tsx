@@ -15,7 +15,7 @@ export const Contact: React.FC = () => {
             <div className="space-y-8">
                 <p className="font-medium text-lg">Direct Channels</p>
                 
-                <a href="https://wa.me/1234567890" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
+                <a href="https://wa.me/5635801913" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
                     <div className="w-12 h-12 rounded-full bg-[#25D366]/10 flex items-center justify-center text-[#25D366] group-hover:scale-110 transition-transform">
                         <MessageCircle size={24} />
                     </div>
@@ -25,7 +25,7 @@ export const Contact: React.FC = () => {
                     </div>
                 </a>
 
-                <a href="mailto:hello@kanmi.com" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
+                <a href="mailto:munizcanas@hotmail.com" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
                     <div className="w-12 h-12 rounded-full bg-neutral-100 flex items-center justify-center text-neutral-900 group-hover:scale-110 transition-transform">
                         <Mail size={24} />
                     </div>
