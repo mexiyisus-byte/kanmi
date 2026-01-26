@@ -95,7 +95,7 @@ export const Hero: React.FC = () => {
                 {/* Product Image Placeholder - Represents a sleek matcha drink */}
                 <div className="w-full h-full rounded-3xl overflow-hidden shadow-2xl shadow-[#C8DA89]/30 bg-white relative">
                    <img
-                    src="/kanmi-can.jpg"
+                    src="/kanmi-can.png"
                     alt="KANMI Signature Drink"
                     className="w-full h-full object-contain"
                    />
