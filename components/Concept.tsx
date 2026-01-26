@@ -21,7 +21,9 @@ export const Concept: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-3xl md:text-5xl font-medium leading-tight text-neutral-900 mb-12"
         >
-          We design drinks and desserts for moments that matter. Made for <span className="italic font-serif text-[#8FA26A]">moments worth remembering</span>.
+          We design drinks and desserts for moments that matter.
+          <br />
+          <span className="italic font-serif text-[#8FA26A]">Made for moments worth remembering.</span>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 text-left">
