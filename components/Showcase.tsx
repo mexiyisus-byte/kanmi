@@ -14,7 +14,7 @@ export const Showcase: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-end mb-16">
         <div>
             <h2 className="text-4xl font-semibold tracking-tight mb-4">Our Palette.</h2>
-            <p className="text-neutral-500 max-w-lg">A curated selection of drinks and sweets inspired by global flavors - <span className="text-neutral-900 font-medium">Layered flavors made for modern celebrations</span>.</p>
+            <p className="text-neutral-500 max-w-lg">A curated selection of drinks and sweets inspired by global flavors. <span className="text-[#8FA26A] font-medium">Layered flavors made for modern celebrations.</span></p>
         </div>
         <div className="hidden md:block text-right">
             <span className="text-xs uppercase tracking-widest text-neutral-400">Scroll to explore</span>
