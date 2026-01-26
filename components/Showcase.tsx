@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const items = [
   { id: 1, title: 'Matcha Latte', category: 'Signature', image: 'https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?q=80&w=800&auto=format&fit=crop', size: 'large' },
-  { id: 2, title: 'Classic Mojito', category: 'Cocktail', image: 'https://images.unsplash.com/photo-1551538827-9c037cb4f32d?q=80&w=800&auto=format&fit=crop', size: 'small' },
+  { id: 2, title: 'Signature Cocktail', category: 'Cocktail', image: 'https://images.unsplash.com/photo-1551538827-9c037cb4f32d?q=80&w=800&auto=format&fit=crop', size: 'small' },
   { id: 3, title: 'Berry Cake Can', category: 'Dessert', image: 'https://images.unsplash.com/photo-1563729768-6af584667808?q=80&w=800&auto=format&fit=crop', size: 'small' },
   { id: 4, title: 'Espresso Martini', category: 'Cocktail', image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=800&auto=format&fit=crop', size: 'large' },
 ];
@@ -14,7 +14,7 @@ export const Showcase: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-end mb-16">
         <div>
             <h2 className="text-4xl font-semibold tracking-tight mb-4">Our Palette.</h2>
-            <p className="text-neutral-500 max-w-lg">Japanese-inspired beverages, <span className="text-neutral-900">refreshing Mojitos</span>, and layered sweets. Served in our unique <span className="text-neutral-900 font-medium">transparent cans</span> or traditional cups for a personalized touch.</p>
+            <p className="text-neutral-500 max-w-lg">Japanese-inspired beverages, <span className="text-neutral-900">refreshing cocktails</span>, and layered sweets. Served in our unique <span className="text-neutral-900 font-medium">transparent cans</span> or traditional cups for a personalized touch.</p>
         </div>
         <div className="hidden md:block text-right">
             <span className="text-xs uppercase tracking-widest text-neutral-400">Scroll to explore</span>

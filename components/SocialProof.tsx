@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const reviews = [
     "The transparent cans were such a unique touch!",
-    "The Mojito in a can was the highlight of the night.",
+    "The cocktails in a can were the highlight of the night.",
     "KANMI elevated our wedding entirely.",
     "The dessert cans were aesthetically perfect.",
     "Professional, clean, and so tasty.",

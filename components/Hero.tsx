@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-neutral-500 max-w-md mb-10 leading-relaxed font-light"
           >
-            Specialty coffee, desserts, and cocktails—like our signature Mojito—served in unique <span className="text-neutral-900 font-medium">transparent cans</span> or traditional cups. A premium experience designed for the view.
+            Specialty coffee, desserts, and cocktails served in unique <span className="text-neutral-900 font-medium">transparent cans</span> or traditional cups. A premium experience designed for the view.
           </motion.p>
 
           <motion.div

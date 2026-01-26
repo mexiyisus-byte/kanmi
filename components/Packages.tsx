@@ -11,7 +11,7 @@ const packages = [
   {
     name: "The Signature",
     price: "Mixed Menu",
-    features: ["4 Hours Service", "Coffee, Matcha & Mojitos", "Unique Packaging Options", "2 Dessert Can Options", "2 Baristas"]
+    features: ["4 Hours Service", "Coffee, Matcha & Cocktails", "Unique Packaging Options", "2 Dessert Can Options", "2 Baristas"]
   },
   {
     name: "The Bespoke",
