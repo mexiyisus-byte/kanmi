@@ -101,7 +101,7 @@ export const Hero: React.FC = () => {
                    />
                    <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-md p-4 rounded-xl border border-white/20">
                       <p className="text-xs font-bold text-neutral-900 uppercase tracking-widest mb-1">Unique Packaging</p>
-                      <p className="text-sm text-neutral-600">Crystal Clear Can</p>
+                      <p className="text-sm text-neutral-600">Clear Can</p>
                    </div>
                 </div>
             </motion.div>
