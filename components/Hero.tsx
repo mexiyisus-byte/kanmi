@@ -43,9 +43,9 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-6xl md:text-8xl font-semibold tracking-tighter leading-[0.95] mb-8 text-neutral-900"
           >
-            Pop your <br />
+            Design to <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-500">
-              Party.
+              Spark.
             </span>
           </motion.h1>
 
@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-neutral-500 max-w-md mb-10 leading-relaxed font-light"
           >
-            Specialty coffee, desserts, and cocktails served in unique <span className="text-neutral-900 font-medium">transparent cans</span> or traditional cups. A premium experience designed for the view.
+            Specialty coffee, desserts, and cocktails served in unique ways. A premium experience designed for taste & views.
           </motion.p>
 
           <motion.div
