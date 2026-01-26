@@ -29,7 +29,7 @@ export const Concept: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 text-left">
             {[
                 { title: "Unique Packaging", desc: "Our cans are designed to be seen as an object - Intentional, Minimal, and made to stand out." },
-                { title: "Curated Menu", desc: "From ceremonial matcha and specialty coffee to refreshing cocktails." },
+                { title: "Signature Menu", desc: "From ceremonial matcha and specialty coffee to refreshing drinks and desserts, designed to fit your event." },
                 { title: "Personalized Service", desc: "Baristas and mixologists who offer a personalized experience, elevating the atmosphere of your event." }
             ].map((item, index) => (
                 <motion.div 
