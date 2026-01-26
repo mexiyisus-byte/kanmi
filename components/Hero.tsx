@@ -72,7 +72,7 @@ export const Hero: React.FC = () => {
             <a href="https://wa.me/5635801913" target="_blank" rel="noreferrer">
                 <Button variant="secondary" className="flex items-center gap-2">
                 <MessageCircle size={18} />
-                WhatsApp Us
+                Plan Your Event
                 </Button>
             </a>
           </motion.div>
