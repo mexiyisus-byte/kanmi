@@ -26,7 +26,7 @@ export const Packages: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20">
             <h2 className="text-3xl font-semibold tracking-tight">Simple Pricing Models.</h2>
-            <p className="text-neutral-500 mt-4">Thoughtfully designed packages, fully customizable.</p>
+            <p className="text-neutral-500 mt-4">Thoughtfully designed packages, fully <span className="text-[#8FA26A]">customizable</span>.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
