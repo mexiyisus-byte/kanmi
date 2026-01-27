@@ -5,7 +5,7 @@ import { ArrowDown, MessageCircle, Mail } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 pb-24 md:pb-16">
       
       {/* Brand Wordmark (Absolute Top) */}
       <motion.div 
@@ -27,10 +27,12 @@ export const Hero: React.FC = () => {
         
         {/* Text Side */}
         <div className="order-2 lg:order-1 flex flex-col items-center lg:items-start text-center lg:text-left z-10">
+          {/* Desktop-only badge */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
+            className="hidden lg:block"
           >
             <span className="inline-block px-3 py-1 mb-6 text-xs font-semibold tracking-wider uppercase bg-[#E2EBC4] text-[#4A5D23] rounded-full">
               Curated Event Experience
@@ -43,7 +45,7 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-6xl md:text-8xl font-semibold tracking-tighter leading-[0.95] mb-8 text-neutral-900"
           >
-            Sips & <br />
+            Drinks & <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-500">
               Bites.
             </span>
@@ -79,7 +81,18 @@ export const Hero: React.FC = () => {
         </div>
 
         {/* Visual Side (Floating Product) */}
-        <div className="order-1 lg:order-2 relative flex justify-center items-center h-[50vh] lg:h-auto">
+        <div className="order-1 lg:order-2 relative flex flex-col justify-center items-center h-[50vh] lg:h-auto">
+          {/* Mobile-only badge above image */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="lg:hidden mb-6"
+          >
+            <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase bg-[#E2EBC4] text-[#4A5D23] rounded-full">
+              Curated Event Experience
+            </span>
+          </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
