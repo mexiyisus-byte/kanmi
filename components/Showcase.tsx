@@ -5,7 +5,9 @@ const items = [
   { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'tall' },
   { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito.jpg', size: 'small' },
   { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japanese-pudding.jpg', size: 'small' },
-  { id: 4, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'wide' },
+  { id: 4, title: 'a', category: 'Signature', image: '/drink-a.jpg', size: 'small' },
+  { id: 5, title: 'b', category: 'Signature', image: '/drink-b.jpg', size: 'small' },
+  { id: 6, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'tall' },
 ];
 
 export const Showcase: React.FC = () => {
