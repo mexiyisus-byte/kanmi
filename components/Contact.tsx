@@ -94,12 +94,11 @@ ${message}`;
                 <div className="space-y-1">
                     <label className="text-xs font-bold uppercase tracking-wider text-neutral-400">Event Date</label>
                     <input
-                      type="text"
+                      type="date"
                       value={eventDate}
                       onChange={(e) => setEventDate(e.target.value)}
                       required
-                      className="w-full border-b border-neutral-200 py-3 focus:outline-none focus:border-black transition-colors bg-transparent placeholder-neutral-300"
-                      placeholder="DD/MM/YYYY"
+                      className="w-full border-b border-neutral-200 py-3 focus:outline-none focus:border-black transition-colors bg-transparent cursor-pointer"
                     />
                 </div>
 
