@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const items = [
   { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'large' },
-  { id: 2, title: 'Signature Cocktail', category: 'Cocktail', image: 'https://images.unsplash.com/photo-1551538827-9c037cb4f32d?q=80&w=800&auto=format&fit=crop', size: 'small' },
-  { id: 3, title: 'Berry Cake Can', category: 'Dessert', image: 'https://images.unsplash.com/photo-1563729768-6af584667808?q=80&w=800&auto=format&fit=crop', size: 'small' },
-  { id: 4, title: 'Espresso Martini', category: 'Cocktail', image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=800&auto=format&fit=crop', size: 'large' },
+  { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito.jpg', size: 'small' },
+  { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japanese-pudding.jpg', size: 'small' },
+  { id: 4, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'large' },
 ];
 
 export const Showcase: React.FC = () => {
