@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const items = [
-  { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'tall-left' },
-  { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito.jpg', size: 'small' },
-  { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japanese-pudding.jpg', size: 'small' },
-  { id: 4, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'tall-right' },
-  { id: 5, title: 'a', category: 'Signature', image: '/drink-a.jpg', size: 'small' },
-  { id: 6, title: 'b', category: 'Signature', image: '/drink-b.jpg', size: 'small' },
+  { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'tall-left', offsetClass: '' },
+  { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito.jpg', size: 'small', offsetClass: 'md:mt-3' },
+  { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japanese-pudding.jpg', size: 'small', offsetClass: 'md:-mt-2' },
+  { id: 4, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'tall-right', offsetClass: 'md:mt-4' },
+  { id: 5, title: 'a', category: 'Signature', image: '/drink-a.jpg', size: 'small', offsetClass: 'md:-mt-1' },
+  { id: 6, title: 'b', category: 'Signature', image: '/drink-b.jpg', size: 'small', offsetClass: 'md:mt-2' },
 ];
 
 export const Showcase: React.FC = () => {
@@ -33,17 +33,18 @@ export const Showcase: React.FC = () => {
             transition={{ duration: 0.6, delay: i * 0.1 }}
             className={`relative group rounded-2xl overflow-hidden bg-neutral-100 h-full cursor-pointer
               ${item.size === 'tall-left' || item.size === 'tall-right' ? 'md:row-span-2' : ''}
+              ${item.offsetClass}
             `}
           >
-            <img 
-              src={item.image} 
-              alt={item.title} 
+            <img
+              src={item.image}
+              alt={item.title}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            
+
             {/* Overlay Gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300" />
-            
+
             <div className="absolute bottom-0 left-0 p-6 md:translate-y-4 md:group-hover:translate-y-0 transition-transform duration-300">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-white/80 block mb-1">{item.category}</span>
                 <h3 className="text-white text-xl font-medium">{item.title}</h3>
