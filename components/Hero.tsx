@@ -86,12 +86,20 @@ export const Hero: React.FC = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="relative z-10"
           >
-            {/* Floating Animation */}
-            <motion.div
-              animate={{ y: [0, -20, 0] }}
-              transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-              className="relative w-64 md:w-80 aspect-[3/4]"
-            >
+            {/* Floating Animation - CSS for better mobile performance */}
+            <div className="relative w-64 md:w-80 aspect-[3/4] animate-float">
+            <style>{`
+              @keyframes float {
+                0%, 100% { transform: translateY(0px); }
+                50% { transform: translateY(-15px); }
+              }
+              .animate-float {
+                animation: float 6s ease-in-out infinite;
+              }
+              @media (prefers-reduced-motion: reduce) {
+                .animate-float { animation: none; }
+              }
+            `}</style>
                 {/* Product Image Placeholder - Represents a sleek matcha drink */}
                 <div className="w-full h-full rounded-3xl overflow-hidden shadow-2xl shadow-[#C8DA89]/30 bg-white relative">
                    <img
@@ -103,7 +111,7 @@ export const Hero: React.FC = () => {
                       <p className="text-xs font-bold text-neutral-900 uppercase tracking-widest">Unique Packaging</p>
                    </div>
                 </div>
-            </motion.div>
+            </div>
           </motion.div>
           
           {/* Decorative Elements behind product */}
