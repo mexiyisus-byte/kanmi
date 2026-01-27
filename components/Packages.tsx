@@ -55,9 +55,14 @@ export const Packages: React.FC = () => {
                 ))}
               </ul>
 
-              <button className="w-full py-3 border border-neutral-200 rounded-xl text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors mt-auto">
+              <a
+                href={`https://wa.me/5635801913?text=${encodeURIComponent(`Hello KANMI! I'm interested in ${pkg.name} package. I'd like to get more information.`)}`}
+                target="_blank"
+                rel="noreferrer"
+                className="w-full py-3 border border-neutral-200 rounded-xl text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors mt-auto block text-center"
+              >
                 Request Quote
-              </button>
+              </a>
             </motion.div>
           ))}
         </div>
