@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const Concept: React.FC = () => {
   return (
-    <section id="concept" className="py-16 md:py-32 px-6 bg-white relative z-10">
+    <section id="concept" className="pt-20 pb-16 md:py-32 px-6 bg-white relative z-10">
       <div className="max-w-4xl mx-auto text-center">
         <motion.span 
           initial={{ opacity: 0, y: 20 }}
