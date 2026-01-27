@@ -34,7 +34,7 @@ export const Packages: React.FC = () => {
             <motion.div
               key={idx}
               whileHover={{ y: -8 }}
-              className="bg-white p-8 rounded-3xl border border-neutral-100 shadow-sm hover:shadow-xl hover:shadow-[#C8DA89]/10 transition-all duration-300 relative overflow-hidden"
+              className="bg-white p-8 rounded-3xl border border-neutral-100 shadow-sm hover:shadow-xl hover:shadow-[#C8DA89]/10 transition-all duration-300 relative overflow-hidden flex flex-col h-full"
             >
               {idx === 1 && (
                   <div className="absolute top-0 right-0 bg-[#E2EBC4] text-[#4A5D23] text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-wider">
@@ -43,8 +43,8 @@ export const Packages: React.FC = () => {
               )}
               <h3 className="text-2xl font-semibold mb-2">{pkg.name}</h3>
               <p className="text-sm text-neutral-500 uppercase tracking-wide mb-8">{pkg.price}</p>
-              
-              <ul className="space-y-4 mb-8">
+
+              <ul className="space-y-4 mb-8 flex-grow">
                 {pkg.features.map((feat, i) => (
                   <li key={i} className="flex items-center gap-3 text-sm text-neutral-600">
                     <span className="flex-shrink-0 w-5 h-5 rounded-full bg-neutral-100 flex items-center justify-center">
@@ -55,7 +55,7 @@ export const Packages: React.FC = () => {
                 ))}
               </ul>
 
-              <button className="w-full py-3 border border-neutral-200 rounded-xl text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors">
+              <button className="w-full py-3 border border-neutral-200 rounded-xl text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors mt-auto">
                 Request Quote
               </button>
             </motion.div>
