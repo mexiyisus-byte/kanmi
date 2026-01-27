@@ -64,13 +64,13 @@ export const Hero: React.FC = () => {
             transition={{ duration: 1, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
           >
-            <a href="#contact">
-                <Button>
+            <a href="#contact" className="w-full sm:w-auto">
+                <Button className="w-full sm:w-auto">
                 Book Your Date
                 </Button>
             </a>
-            <a href="https://wa.me/5635801913" target="_blank" rel="noreferrer">
-                <Button variant="secondary" className="flex items-center gap-2">
+            <a href="https://wa.me/5635801913" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
+                <Button variant="secondary" className="w-full sm:w-auto flex items-center justify-center gap-2">
                 <MessageCircle size={18} />
                 Plan Your Event
                 </Button>
@@ -111,12 +111,12 @@ export const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator - hidden on mobile */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="hidden md:flex absolute bottom-10 left-1/2 -translate-x-1/2 flex-col items-center gap-2"
       >
         <span className="text-[10px] uppercase tracking-[0.2em] text-neutral-400">Scroll</span>
         <motion.div
