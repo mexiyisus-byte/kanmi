@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const items = [
-  { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'tall' },
+  { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'tall-left' },
   { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito.jpg', size: 'small' },
   { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japanese-pudding.jpg', size: 'small' },
-  { id: 4, title: 'a', category: 'Signature', image: '/drink-a.jpg', size: 'small' },
-  { id: 5, title: 'b', category: 'Signature', image: '/drink-b.jpg', size: 'small' },
-  { id: 6, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'tall' },
+  { id: 4, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'tall-right' },
+  { id: 5, title: 'a', category: 'Signature', image: '/drink-a.jpg', size: 'small' },
+  { id: 6, title: 'b', category: 'Signature', image: '/drink-b.jpg', size: 'small' },
 ];
 
 export const Showcase: React.FC = () => {
@@ -23,7 +23,7 @@ export const Showcase: React.FC = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 auto-rows-[250px]">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[200px]">
         {items.map((item, i) => (
           <motion.div
             key={item.id}
@@ -32,8 +32,7 @@ export const Showcase: React.FC = () => {
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6, delay: i * 0.1 }}
             className={`relative group rounded-2xl overflow-hidden bg-neutral-100 h-full cursor-pointer
-              ${item.size === 'tall' ? 'md:row-span-2' : ''}
-              ${item.size === 'wide' ? 'md:col-span-2' : ''}
+              ${item.size === 'tall-left' || item.size === 'tall-right' ? 'md:row-span-2' : ''}
             `}
           >
             <img 
