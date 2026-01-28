@@ -23,7 +23,7 @@ export const Concept: React.FC = () => {
         >
           We design drinks and desserts for moments that matter.
           <br />
-          <span className="italic font-serif text-[#8FA26A]">Made for moments worth remembering.</span>
+          <span className="italic font-serif text-[#8FA26A] mt-4 block">Made for moments worth remembering.</span>
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 text-left">
