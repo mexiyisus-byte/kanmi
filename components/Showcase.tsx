@@ -40,7 +40,7 @@ export const Showcase: React.FC = () => {
               src={item.image}
               alt={item.title}
               loading="lazy"
-              className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${item.zoom ? 'scale-125' : ''}`}
+              className={`w-full h-full object-cover transition-transform duration-700 ${item.zoom ? 'scale-125 group-hover:scale-[1.30]' : 'group-hover:scale-105'}`}
             />
 
             {/* Overlay Gradient */}
