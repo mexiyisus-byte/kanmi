@@ -5,7 +5,7 @@ import { ArrowDown, MessageCircle, Mail } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 pb-20 md:pb-16">
+    <section className="relative min-h-[auto] md:min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-16 md:pt-20 md:pb-16">
       
       {/* Brand Wordmark (Absolute Top) */}
       <motion.div 
