@@ -122,7 +122,7 @@ export const Hero: React.FC = () => {
                    />
                 </div>
                 {/* Unique Packaging label outside image */}
-                <div className="mt-4 text-center">
+                <div className="mt-4 mb-8 lg:mb-0 text-center">
                    <p className="text-xs font-bold text-neutral-900 uppercase tracking-widest">Unique Packaging</p>
                 </div>
             </div>
