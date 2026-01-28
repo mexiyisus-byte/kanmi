@@ -6,7 +6,7 @@ const items = [
   { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito-new.jpg', size: 'small', offsetClass: 'md:mt-3' },
   { id: 3, title: 'Coco Matcha', category: 'Signature', image: '/cocomatcha.jpg', size: 'small', offsetClass: 'md:-mt-2' },
   { id: 4, title: 'Japanese Pudding', category: 'Dessert', image: '/japapudding.jpg', size: 'tall-right', offsetClass: 'md:mt-4' },
-  { id: 5, title: 'Cookies', category: 'Dessert', image: '/cookies.jpg', size: 'small', offsetClass: 'md:-mt-1' },
+  { id: 5, title: 'Cookies and Cream', category: 'Drink', image: '/cookies.jpg', size: 'small', offsetClass: 'md:-mt-1' },
   { id: 6, title: 'Strawberries with Cream', category: 'Dessert', image: '/strawberry.jpg', size: 'small', offsetClass: 'md:mt-2' },
 ];
 
