@@ -113,16 +113,17 @@ export const Hero: React.FC = () => {
                 .animate-float { animation: none; }
               }
             `}</style>
-                {/* Product Image Placeholder - Represents a sleek matcha drink */}
-                <div className="w-full h-full rounded-3xl overflow-hidden shadow-2xl shadow-[#C8DA89]/30 bg-white relative">
+                {/* Product Image with hover zoom */}
+                <div className="w-full h-full rounded-3xl overflow-hidden shadow-2xl shadow-[#C8DA89]/30 bg-white relative group cursor-pointer">
                    <img
                     src="/hero.png"
                     alt="KANMI Signature Drink"
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                    />
-                   <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-md p-4 rounded-xl border border-white/20">
-                      <p className="text-xs font-bold text-neutral-900 uppercase tracking-widest">Unique Packaging</p>
-                   </div>
+                </div>
+                {/* Unique Packaging label outside image */}
+                <div className="mt-4 text-center">
+                   <p className="text-xs font-bold text-neutral-900 uppercase tracking-widest">Unique Packaging</p>
                 </div>
             </div>
           </motion.div>
