@@ -120,9 +120,6 @@ export const Hero: React.FC = () => {
                     alt="KANMI Signature Drink"
                     className="w-full h-full object-contain"
                    />
-                   <div className="absolute bottom-6 left-6 right-6 bg-white/80 backdrop-blur-md p-4 rounded-xl border border-white/20">
-                      <p className="text-xs font-bold text-neutral-900 uppercase tracking-widest">Unique Packaging</p>
-                   </div>
                 </div>
             </div>
           </motion.div>
