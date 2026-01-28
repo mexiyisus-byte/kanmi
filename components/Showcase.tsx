@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const items = [
-  { id: 1, title: 'Coffee Matcha', category: 'Signature', image: '/coffematcha.jpg', size: 'tall-left', offsetClass: '' },
+  { id: 1, title: 'Coffee Matcha', category: 'Signature', image: '/coffematcha.jpg', size: 'tall-left', offsetClass: '', zoom: true },
   { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito-new.jpg', size: 'small', offsetClass: 'md:mt-3' },
   { id: 3, title: 'Coco Matcha', category: 'Drink', image: '/cocomatcha.jpg', size: 'small', offsetClass: 'md:-mt-2' },
   { id: 4, title: 'Japanese Pudding', category: 'Dessert', image: '/japapudding.jpg', size: 'tall-right', offsetClass: 'md:mt-4' },
@@ -40,7 +40,7 @@ export const Showcase: React.FC = () => {
               src={item.image}
               alt={item.title}
               loading="lazy"
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${item.zoom ? 'scale-125' : ''}`}
             />
 
             {/* Overlay Gradient */}
