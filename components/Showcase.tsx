@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const items = [
-  { id: 1, title: 'Salted Caramel Latte', category: 'Signature', image: '/salted-caramel.jpg', size: 'tall-left', offsetClass: '' },
-  { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito.jpg', size: 'small', offsetClass: 'md:mt-3' },
-  { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japanese-pudding.jpg', size: 'small', offsetClass: 'md:-mt-2' },
-  { id: 4, title: 'Strawberry Matcha', category: 'Signature', image: '/strawberry-matcha.jpg', size: 'tall-right', offsetClass: 'md:mt-4' },
-  { id: 5, title: 'a', category: 'Signature', image: '/drink-a.jpg', size: 'small', offsetClass: 'md:-mt-1' },
-  { id: 6, title: 'b', category: 'Signature', image: '/drink-b.jpg', size: 'small', offsetClass: 'md:mt-2' },
+  { id: 1, title: 'Coffee Matcha', category: 'Signature', image: '/coffematcha.jpg', size: 'tall-left', offsetClass: '' },
+  { id: 2, title: 'Mojito', category: 'Cocktail', image: '/mojito-new.jpg', size: 'small', offsetClass: 'md:mt-3' },
+  { id: 3, title: 'Japanese Pudding', category: 'Dessert', image: '/japapudding.jpg', size: 'small', offsetClass: 'md:-mt-2' },
+  { id: 4, title: 'Coco Matcha', category: 'Signature', image: '/cocomatcha.jpg', size: 'tall-right', offsetClass: 'md:mt-4' },
+  { id: 5, title: 'Cookies', category: 'Dessert', image: '/cookies.jpg', size: 'small', offsetClass: 'md:-mt-1' },
+  { id: 6, title: 'Strawberry', category: 'Signature', image: '/strawberry.jpg', size: 'small', offsetClass: 'md:mt-2' },
 ];
 
 export const Showcase: React.FC = () => {
