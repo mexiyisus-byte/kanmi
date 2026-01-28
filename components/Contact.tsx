@@ -67,13 +67,13 @@ ${message}`;
                     </div>
                 </a>
 
-                <a href="#" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
+                <a href="https://ig.me/m/kanmi.mx" target="_blank" rel="noreferrer" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
                     <div className="w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 group-hover:scale-110 transition-transform">
                         <Instagram size={24} />
                     </div>
                     <div>
                         <p className="font-bold text-neutral-900">Instagram</p>
-                        <p className="text-sm text-neutral-500">See our latest events</p>
+                        <p className="text-sm text-neutral-500">DM us directly</p>
                     </div>
                 </a>
             </div>
