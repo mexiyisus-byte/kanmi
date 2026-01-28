@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="lg:hidden mb-6 mt-8"
+            className="lg:hidden mb-6 mt-12"
           >
             <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase bg-[#E2EBC4] text-[#4A5D23] rounded-full">
               Curated Event Experience
