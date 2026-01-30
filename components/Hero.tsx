@@ -46,9 +46,7 @@ export const Hero: React.FC = () => {
             className="text-6xl md:text-8xl font-semibold tracking-tighter leading-[0.95] mb-8 text-neutral-900"
           >
             Drinks & <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-500">
-              Bites.
-            </span>
+            Bites.
           </motion.h1>
 
           <motion.p
