@@ -32,7 +32,7 @@ Event Date: ${eventDate}
 Message:
 ${message}`;
 
-    window.location.href = `mailto:munizcanas@hotmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:hello@kanmi.mx?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   return (
@@ -57,7 +57,7 @@ ${message}`;
                     </div>
                 </a>
 
-                <a href="mailto:munizcanas@hotmail.com" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
+                <a href="mailto:hello@kanmi.mx" className="flex items-center gap-4 group cursor-pointer p-4 rounded-xl hover:bg-neutral-50 transition-colors">
                     <div className="w-12 h-12 rounded-full bg-neutral-100 flex items-center justify-center text-neutral-900 group-hover:scale-110 transition-transform">
                         <Mail size={24} />
                     </div>
