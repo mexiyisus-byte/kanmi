@@ -45,7 +45,6 @@ export const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-6xl md:text-8xl font-semibold tracking-tighter leading-[0.95] mb-8 text-neutral-900"
           >
-            Drinks & <br />
             Bites.
           </motion.h1>
 
