@@ -30,11 +30,6 @@ export const SocialProof: React.FC = () => {
         .animate-marquee {
           animation: marquee 30s linear infinite;
         }
-        @media (prefers-reduced-motion: reduce) {
-          .animate-marquee {
-            animation: none;
-          }
-        }
       `}</style>
     </section>
   );
