@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         className="absolute top-8 left-0 right-0 flex justify-between items-center px-8 md:px-12 z-50"
       >
-        <span className="text-2xl md:text-3xl font-bold tracking-tighter text-[#8FA26A]">KANMI.</span>
+        <span className="text-4xl md:text-5xl font-bold tracking-tighter text-[#8FA26A]">KANMI.</span>
         <div className="hidden md:flex gap-6 text-sm font-medium text-neutral-500">
           <a href="#concept" className="hover:text-black transition-colors">Concept</a>
           <a href="#menu" className="hover:text-black transition-colors">Menu</a>
